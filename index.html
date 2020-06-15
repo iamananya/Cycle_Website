@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Where's My Cycle</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <title>Where's My Cycle</title>
+    <link rel="stylesheet" href="./style/style.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<nav class="nav">
+    <!-- partial:index.partial.html -->
+    <nav class="nav">
         <div class="container">
             <div class="logo">
-                <a href="#">Your Logo</a>
+                <a href="#">
+                    <img src="./images/logo with black bg (1).png" alt="">
+                </a>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
@@ -33,16 +37,41 @@
 
     </section>
     <div>
-<h2 class="myH2">Where's my cycle?</h2>
-</div>
+        <div class="row">
+            <div class="column">
+                <div class="text">
+                    <p>
+                        Where’s my Cycle is aimed to minimize Cycle
+                        thefts on campus by making GPS tracking devices available to everyone at a cheap and affordable
+                        price so that one would keep track of their cycle with the help of their mobile phone. That's
+                        the main motto of our start-up "Where's my Cycle: Cycle tracking made easy". Our product is not
+                        only designed for bicycles, but it can also be used for bikes, cars. Etc.
 
-<!-- Jquery needed -->
+                        In the future, we wish to expand our business to pets, children, bikes, cars, trucks.etc for GPS
+                        tracking
+
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="video">
+                    <iframe width="420" height="345" src="https://www.youtube.com/embed/gQ2AYloadeY?autoplay=1">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
     <script>
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
                 $('.nav').addClass('affix');
                 console.log("OK");
@@ -51,8 +80,9 @@
             }
         });
     </script>
-<!-- partial -->
-  <script  src="./script.js"></script>
+    <!-- partial -->
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
